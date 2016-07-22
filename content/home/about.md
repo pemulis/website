@@ -22,6 +22,8 @@ Ricochet is a different approach to instant messaging that **doesn't trust anyon
 
 The latest version is **1.1.1** (September 9, 2015). You can also [build from source](https://github.com/ricochet-im/ricochet/blob/master/BUILDING.md).
 
+Note for Mac users: After downloading, you should drag the application out of the .dmg to the Applications folder before installing or there will be an error. See [issue #122](https://github.com/ricochet-im/ricochet/issues/122) on GitHub for details.
+
 ### How it works
 
 Ricochet uses the [Tor network](https://www.torproject.org/about/overview.html.en) to reach your contacts without relying on messaging servers. It creates a [hidden service](https://www.torproject.org/docs/hidden-services.html.en), which is used to rendezvous with your contacts without revealing your location or IP address.
